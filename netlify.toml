@@ -6,10 +6,9 @@
   NODE_VERSION = "20"
   NEXT_TELEMETRY_DISABLED = "1"
 
-[[functions]]
+[functions]
   directory = ".next/server"
-  included_files = [".next/static/**"]
-  
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
